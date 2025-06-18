@@ -9,11 +9,10 @@
   "scripts": {
     "test": "jest"
   },
-  "jest": {
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
-    }
-  },
+    "jest": {
+      "preset": "ts-jest",
+      "testEnvironment": "node"
+    },
   "dependencies": {
     "@prisma/client": "^6.9.0",
     "bcrypt": "^6.0.0",
@@ -25,9 +24,11 @@
     "@jest/globals": "^30.0.0",
     "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
     "@types/supertest": "^6.0.3",
     "prisma": "^6.9.0",
     "supertest": "^7.1.1",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
   }
 }
