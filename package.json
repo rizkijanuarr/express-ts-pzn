@@ -1,0 +1,33 @@
+{
+  "name": "belajar-typescript-restful-api",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "winston": "^3.17.0",
+    "zod": "^3.25.64"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.0.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.3",
+    "@types/supertest": "^6.0.3",
+    "prisma": "^6.9.0",
+    "supertest": "^7.1.1",
+    "typescript": "^5.8.3"
+  }
+}
